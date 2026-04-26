@@ -1,3 +1,7 @@
+# custom_openai_agent.py — Response generation agent
+# Uses CrewAI's LLM class backed by Groq (Llama 3.3 70B) to generate
+# the final synthesized response from web research results.
+
 from crewai import LLM
 import os
 

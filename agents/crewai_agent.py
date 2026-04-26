@@ -1,3 +1,7 @@
+# crewai_agent.py — CrewAI researcher agent
+# Uses Groq (Llama 3.3 70B) as the LLM and Tavily for web search.
+# Returns 5 bullet points summarizing web research findings.
+
 from crewai import Crew, Agent, Task, LLM
 from langchain_community.tools.tavily_search import TavilySearchResults
 from crewai.tools import BaseTool

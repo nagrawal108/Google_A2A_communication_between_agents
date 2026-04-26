@@ -1,3 +1,7 @@
+# langchain_agent.py — LangChain task-extraction agent
+# Uses Groq (Llama 3.3 70B) via LangChain's ChatOpenAI interface.
+# Defines a tool to extract the core task from user input.
+
 from langchain.tools import tool
 from langchain_openai import ChatOpenAI
 from langchain.agents import create_agent
