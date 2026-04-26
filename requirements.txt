@@ -1,0 +1,10 @@
+langgraph
+crewai
+openai
+langchain
+langchain-community
+langchain-openai
+tavily-python
+pydantic
+litellm
+python-dotenv
