@@ -3,6 +3,7 @@
 #   1. LangChain Agent node: extracts the task from user input
 #   2. CrewAI Agent node: performs web research via Tavily search
 #   3. Response Agent node: generates a final answer using Groq (Llama 3.3 70B)
+# This example demonstrates how to use LangGraph to build a simple agent orchestration pipeline, passing shared state between nodes and integrating multiple agent types.
 
 from typing import TypedDict
 from dotenv import load_dotenv
